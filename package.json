@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "postbuild": "next-sitemap",
-    "start": "next start"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
